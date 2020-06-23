@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: #f6b024;
+  background: #85169b;
   color: #fff;
 }
 
@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .contact-info i {
-  color: #f6b024;
+  color: #85169b;
   padding-right: 4px;
 }
 
@@ -158,7 +158,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #topbar .cta a {
   color: #fff;
-  background: #f6b024;
+  background: #85169b;
   padding: 6px 24px 8px 24px;
   display: inline-block;
   transition: 0.3s;
@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.1);
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled {
   top: 0;
-  background: rgb(8, 95, 170);
+  background: rgb(253, 253, 253);
 }
 
 #header .logo {
@@ -245,7 +245,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(19, 9, 9, 0.7);
   transition: 0.3s;
   font-size: 14px;
   padding: 0 3px;
@@ -536,11 +536,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #f6b024;
+  border: 2px solid #85169b;
 }
 
 #hero .btn-get-started:hover {
-  background: #f6b024;
+  background: #85169b;
   color: #fff;
   text-decoration: none;
 }
@@ -621,7 +621,7 @@ section {
 .icon-boxes .icon i {
   font-size: 36px;
   line-height: 1;
-  color: #f6b024;
+  color: #85169b;
 }
 
 .icon-boxes .title {
@@ -652,7 +652,7 @@ section {
 
 .about:before {
   content: "";
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(228, 228, 228, 0.75);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -992,7 +992,7 @@ section {
 
 .services .icon-box i {
   float: left;
-  color: #f6b024;
+  color: #85169b;
   font-size: 40px;
 }
 
@@ -1050,12 +1050,12 @@ section {
   transition: 0.5s;
   margin: 10px;
   border-radius: 50px;
-  border: 2px solid #f6b024;
+  border: 2px solid #85169b;
   color: #fff;
 }
 
 .cta .cta-btn:hover {
-  background: #f6b024;
+  background: #85169b;
 }
 
 @media (max-width: 1024px) {
@@ -1354,6 +1354,11 @@ section {
 .pricing .featured h3 {
   color: #fff;
   background: #0880e8;
+}
+
+.pricing .carloan h3 {
+  color: #fff;
+  background: #a70303;
 }
 
 .pricing .advanced {
@@ -1813,7 +1818,7 @@ section {
 
 .blog .entry .entry-content .read-more a {
   display: inline-block;
-  background: #f6b024;
+  background: #85169b;
   color: #fff;
   padding: 6px 20px 8px 20px;
   transition: 0.3s;
@@ -1893,7 +1898,7 @@ section {
 }
 
 .blog .entry .entry-footer a:hover {
-  color: #f6b024;
+  color: #85169b;
 }
 
 .blog .entry .entry-footer .cats {
@@ -2003,7 +2008,7 @@ section {
 }
 
 .blog .blog-comments .comment h5 a:hover {
-  color: #f6b024;
+  color: #85169b;
 }
 
 .blog .blog-comments .comment h5 .reply {
@@ -2076,7 +2081,7 @@ section {
 }
 
 .blog .blog-comments .reply-form .btn-primary:hover {
-  background-color: #f6b024;
+  background-color: #85169b;
 }
 
 .blog .blog-pagination {
@@ -2193,7 +2198,7 @@ section {
 }
 
 .blog .sidebar .categories ul a:hover {
-  color: #f6b024;
+  color: #85169b;
 }
 
 .blog .sidebar .categories ul a span {
@@ -2223,7 +2228,7 @@ section {
 }
 
 .blog .sidebar .recent-posts h4 a:hover {
-  color: #f6b024;
+  color: #85169b;
 }
 
 .blog .sidebar .recent-posts time {
@@ -2260,8 +2265,8 @@ section {
 
 .blog .sidebar .tags ul a:hover {
   color: #fff;
-  border-color: #f6b024;
-  background: #f6b024;
+  border-color: #85169b;
+  background: #85169b;
 }
 
 .blog .sidebar .tags ul a span {
@@ -2317,7 +2322,7 @@ section {
   font-size: 16px;
   padding: 0 20px;
   margin: 3px;
-  background: #f6b024;
+  background: #85169b;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -2368,7 +2373,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #f6b024;
+  background: #85169b;
   color: #fff;
   text-decoration: none;
 }
@@ -2441,5 +2446,94 @@ section {
 }
 
 #footer .credits a {
-  color: #f6b024;
+  color: #85169b;
+}
+
+/*--------------------------------------------------------------
+# Fresh Cards
+--------------------------------------------------------------*/
+.pricingTable{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin: 0 10px;
+  border-radius: 40px 40px 170px 170px / 40px 40px 70px 70px;
+  overflow: hidden;
+  transition: all 0.3s ease 0s;
+}
+.pricingTable:hover{ box-shadow: 0 0 20px -5px rgba(0,0,0, 0.9); }
+.pricingTable .pricingTable-header{
+  background: #e7e8ea;
+  padding: 25px 0 0;
+}
+.pricingTable .price-value{
+  color: #86878B;
+  font-weight: 900;
+  margin: 0 0 15px;
+}
+.pricingTable .price-value .amount{
+  font-size: 45px;
+  line-height: 40px;
+  display: block;
+}
+.pricingTable .price-value .duration{
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: block;
+}
+.pricingTable .title{
+  color: #fff;
+  background: #f76b0e;
+  font-size: 33px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 18px 10px 15px;
+  margin: 0 -8px;
+  border: 8px solid #fff;
+  border-bottom: none;
+  border-radius: 170px 170px 0 0 / 70px 70px 0 0;
+}
+.pricingTable .content-list{
+  background: #E7E8EA;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.pricingTable .content-list li{
+  color: #86878B;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 12px 5px;
+}
+.pricingTable .content-list li:nth-child(even){ background: #D1D2D4; }
+.pricingTable .content-list li:last-child{ margin-bottom: 0; }
+.pricingTable .pricingTable-signup{
+  background: #f76b0e;
+  padding: 17px 20px 23px;
+}
+.pricingTable .pricingTable-signup a{
+  color: #fff;
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+.pricingTable .pricingTable-signup a:hover{
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.pricingTable.blue .title,
+.pricingTable.blue .pricingTable-signup{
+  background: #3867d6;
+}
+.pricingTable.green .title,
+.pricingTable.green .pricingTable-signup{
+  background: #0fb9b1;
+}
+@media only screen and (max-width: 990px){
+  .pricingTable{ margin-bottom: 30px; }
 }
