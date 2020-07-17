@@ -72,7 +72,8 @@ Performa git push add --all,followed by git push.
 1.perform a git push
 [move/drag the Technical/UI Skills Test for the above tasks to Complete]
 
-![pcx_ux-Main-rocket_replaced](https://user-images.githubusercontent.com/37291194/84594269-c603e100-ae6e-11ea-8192-90ff24fd0f3a.png)
+![pcx_ux-Main-rocket_replaced](https://user-images.githubusercontent.com/68367498/87836038-702aba80-c8ac-11ea-8ef5-f8aeac824e7d.png)
+
 
 ## Thank You and Good Luck
 
