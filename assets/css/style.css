@@ -52,7 +52,6 @@ h1, h2, h3, h4, h5, h6 {
   background: #ae32c7;
   color: #fff;
 }
-
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -139,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .contact-info a {
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff;
   transition: 0.3s;
 }
 
@@ -148,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .contact-info i {
-  color: #ae32c7;
+  color: #ffff;
   padding-right: 4px;
 }
 
@@ -158,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #topbar .cta a {
   color: #fff;
-  background: #ae32c7;
+  background: #0345c0;
   padding: 6px 24px 8px 24px;
   display: inline-block;
   transition: 0.3s;
@@ -166,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .cta a:hover {
-  background: #f1a40a;
+  background: #f8f8f8;
 }
 
 /*--------------------------------------------------------------
