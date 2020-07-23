@@ -12,7 +12,7 @@ body {
 }
 
 a {
-  color: #0880e8;
+  color: #676565;
 }
 
 a:hover {
@@ -22,6 +22,16 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+  text-underline-position: below;
+}
+
+.service{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: crimson;
+    padding-bottom: 20px;
+}
+ 
 }
 
 /*--------------------------------------------------------------
@@ -598,49 +608,137 @@ section {
 /*--------------------------------------------------------------
 # Icon Boxes
 --------------------------------------------------------------*/
-.icon-boxes {
-  padding-top: 0;
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+body {
+  background: #F2F2F2;
+  padding: 0;
+  maring: 0;
 }
 
-.icon-boxes .icon-box {
-  padding: 40px 30px;
-  position: relative;
-  overflow: hidden;
-  background: #fff;
-  box-shadow: 5px 10px 29px 0 rgba(68, 88, 144, 0.2);
-  transition: all 0.3s ease-in-out;
-  border-radius: 10px;
-}
 
-.icon-boxes .icon {
-  margin: 0 auto 20px auto;
-  display: inline-block;
+#price {
   text-align: center;
 }
 
-.icon-boxes .icon i {
-  font-size: 36px;
-  line-height: 1;
-  color: #ae32c7;
+.plan {
+  display: inline-block;
+  margin: 10px 1%;
+  font-family: 'Lato', Arial, sans-serif;
 }
 
-.icon-boxes .title {
+.plan-inner {
+  margin: 0 auto;
+  min-width: 280px;
+  max-width: 100%;
+  position:relative;
+  padding-right: 25px;
+}
+
+.entry-title {
+ 
+  height: 140px;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.entry-title>h3 {
+  background: #20da3e;
+  border-radius: 25px;
+  font-size: 20px;
+  padding: 55px 0;
+  text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
+  margin: 0;
 }
 
-.icon-boxes .title a {
-  color: #05579e;
+
+
+.entry-content {
+  color: #323232;
+  font-family: Roboto,Sans-serif;
 }
 
-.icon-boxes .description {
-  font-size: 15px;
-  line-height: 28px;
-  margin-bottom: 0;
-  color: #777777;
+.entry-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
 }
 
+.entry-content li {
+  border-bottom: 1px solid #E5E5E5;
+  padding: 10px 0;
+}
+
+.entry-content li:last-child {
+  border: none;
+}
+
+.btn {
+  padding: 3em 0;
+  text-align: center;
+}
+
+.btn a {
+  background: #323232;
+  padding: 10px 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none
+}
+.hot {
+    position: absolute;
+    top: -7px;
+    background: #F80;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 2;
+    padding: 2px 5px;
+    font-size: 9px;
+    border-radius: 2px;
+    right: 10px;
+    font-weight: 700;
+}
+.basic .entry-title {
+ 
+}
+
+.basic .entry-title > h3 {
+  background: #39a7a3;
+}
+
+.basic .price {
+  background: #44CBC6;
+}
+
+.standard .entry-title {
+  
+}
+
+.standard .entry-title > h3 {
+  background: #9d296a;
+}
+
+.standard .price {
+  background: #3772aa;
+}
+
+.ultimite .entry-title > h3 {
+  background: #DD4B5E;
+}
+
+.ultimite .entry-title {
+  background: #F75C70;
+}
+
+.ultimite .price {
+  background: #DD4B5E;
+}
+ 
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
@@ -984,10 +1082,15 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   margin-bottom: 20px;
-  padding: 50px 40px;
+  padding: 25px 10px 0px 10px;
   border-radius: 6px;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+.icofont-businessman
+{
+  color: #032e54;
+  float: right;
 }
 
 .services .icon-box i {
@@ -1267,7 +1370,7 @@ section {
   background: #fff;
   text-align: center;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
-  border-radius: 5px;
+  border-radius:25px;
   position: relative;
   overflow: hidden;
 }
@@ -1275,11 +1378,18 @@ section {
 .pricing h3 {
   font-weight: 400;
   margin: -20px -20px 20px -20px;
-  padding: 20px 15px;
-  font-size: 18px;
+  padding: 50px 25px;
+  font-size: 15px;
   font-weight: 700;
-  color: #05579e;
-  background: #f8f8f8;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#f1f1f3;
+
+}
+.personal{
+  background: #7975c0;
+}
+.home{
+  background-color: #f0fd79;
 }
 
 .pricing h4 {
@@ -1297,9 +1407,9 @@ section {
 }
 
 .pricing h4 span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300;
+  color:#211df1;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .pricing ul {
