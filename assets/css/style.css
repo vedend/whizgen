@@ -2688,22 +2688,22 @@ a.btn-transparent-green {
 }
 
 .color-block-dblue {
-  background: #004387;
+  background: #1fc469;
   &:before {
       background: #0c457e;
   }
   &:after {
-      background: #135ba5;
+      background: #30b96e;
   }
 }
 
 .color-block-green {
-  background: #49ac01;
+  background: #d34808;
   &:before {
       background: #49ac01;
   }
   &:after {
-      background: #82c600;
+      background: #c44f19;
       opacity: 0.4;
   }
 }
