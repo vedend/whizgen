@@ -1,14 +1,7 @@
 /**
-* Template Name: Dashio
-* Template URL: https://templatemag.com/dashio-bootstrap-admin-template/
-* Author: TemplateMag.com
+* Project Name: PCS Dashboard
+* Author: WhizGen.com
 * License: https://templatemag.com/license/
-*/
-/*
-Template Name: DASHIO - Bootstrap 3.1.1 Admin Theme
-Template Version: 1.0
-Author: Carlos Alvarez
-Website: http://Alvarez.is/
 */
 
 /* Import fonts */
@@ -34,11 +27,11 @@ a, a:hover, a:focus {
 }
 ::selection {
 
-    background: #4ECDC4;
+    background: #c43f97;
     color: #fff;
 }
 ::-moz-selection {
-    background: #4ECDC4;
+    background: #c43f97;
     color: #fff;
 }
 
@@ -49,7 +42,7 @@ a, a:hover, a:focus {
 
 /* Bootstrap Modifications */
 .modal-header {
-	background: #4ECDC4;
+	background: #c43f97;
 }
 
 .modal-title {
@@ -327,7 +320,7 @@ ul.sidebar-menu li ul.sub li a:hover {
 }
 
 ul.sidebar-menu li ul.sub li.active a {
-    color: #4ECDC4;
+    color: #c43f97;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -366,7 +359,7 @@ ul.sidebar-menu li a{
 }
 
 ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
-    background: #4ECDC4;
+    background: #075ab9;
     color: #fff;
     display: block;
 
