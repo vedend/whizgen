@@ -10802,19 +10802,19 @@ a:focus {
   }
 }
 
-.bg-login-image {
+.bg-log-image {
   background-image: url('../img/logowhite.png');
   background-position: center;
   background-size: cover;
 }
 
-.bg-register-image {
+.bg-reg-image {
   background-image: url('../img/logowhite.png');
   background-position: center;
   background-size: cover;
 }
 
-.bg-password-image {
+.bg-reset-image {
   background-image: url('../img/logowhite.png');
   background-position: center;
   background-size: cover;
