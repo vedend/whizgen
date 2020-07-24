@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.card {
+  margin: 1%;
+  padding: 30px;
+  border-radius: 8px;
+  position: relative;
+  transition: .3s all;
+  box-shadow: 0 2px 5px 0 rgba(6, 89, 128, 0.15); }
+  .card:hover {
+    transform: scale(1.05); }
+  @media screen and (max-width: 1240px) {
+    .card {
+      width: 48%; } }
+  @media screen and (max-width: 820px) {
+    .card {
+      width: 98%;
+      margin-top: 2%;
+      margin-bottom: 2%; } }
+  .card h3 {
+    text-transform: uppercase;
+    margin-bottom: 10px; }
+  .card p {
+    margin-bottom: 60px; }
+
+.button {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  font-size: 14px;
+  color: white;
+  background: rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 10000px;
+  transition: .3s all; }
+  .button:hover {
+    background: rgba(255, 255, 255, 0.8);
+    color: #2e2e2e; }
+
+.pad-top {
+  padding-top: 20px; }
+
+.card-blue-light {
+  background: #5caff8;
+  color: white; }
+
+.card-yellow {
+  background: #F4B522;
+  color: white; }
+
+.card-blue-dark {
+  background: #1e4c74;
+  color: white; }
+
+.card-red {
+  background: #CE422F;
+  color: white; }
+
+.card-purple {
+  background: #883EAD;
+  color: white; }
+
+.card-orange {
+  background: #EF7F34;
+  color: white; }
+
+/*# sourceMappingURL=loans.css.map */
