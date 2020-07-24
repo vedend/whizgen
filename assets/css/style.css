@@ -26,11 +26,11 @@ h1, h2, h3, h4, h5, h6 {
   text-underline-position: below;
 }
 
-.service{
+.service , .clients{
     text-align: center;
     text-decoration: underline;
     text-decoration-color: crimson;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 /*--------------------------------------------------------------
 # Back to top button
