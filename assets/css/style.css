@@ -12,7 +12,8 @@ body {
 }
 
 a {
-  color: #676565;
+  color: #7026c1;
+  font-weight: 600;
 }
 
 a:hover {
@@ -31,9 +32,6 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration-color: crimson;
     padding-bottom: 20px;
 }
- 
-}
-
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -613,9 +611,7 @@ section {
 body {
   background: #F2F2F2;
   padding: 0;
-  maring: 0;
 }
-
 
 #price {
   text-align: center;
@@ -703,9 +699,6 @@ body {
     right: 10px;
     font-weight: 700;
 }
-.basic .entry-title {
- 
-}
 
 .basic .entry-title > h3 {
   background: #39a7a3;
@@ -713,10 +706,6 @@ body {
 
 .basic .price {
   background: #44CBC6;
-}
-
-.standard .entry-title {
-  
 }
 
 .standard .entry-title > h3 {
@@ -826,11 +815,15 @@ body {
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
+
 .clients .owl-item {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 20px;
+}
+.clients .h3{
+  text-align: center;
 }
 
 .clients .owl-item img {
@@ -1081,22 +1074,17 @@ body {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  margin-bottom: 20px;
-  padding: 25px 10px 0px 10px;
+  margin-bottom: 60px;
+  padding:  10px  10px;
   border-radius: 6px;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
-.icofont-businessman
-{
-  color: #032e54;
-  float: right;
-}
 
 .services .icon-box i {
-  float: left;
-  color: #ae32c7;
-  font-size: 40px;
+  float: right;
+  color: #2415f7;
+  font-size: 80px;
 }
 
 .services .icon-box h4 {
