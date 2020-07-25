@@ -181,11 +181,10 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(255, 255, 255, 0.1);
-  transition: all 0.5s;
-  z-index: 997;
-  padding: 15px 0;
-  top: 60px;
+    background:rgb(165 83 137 / 88%)
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 5px 0;
 }
 
 #header.header-scrolled {
@@ -204,7 +203,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: rgb(232, 233, 236);
+  color: rgb(255 251 251);
+  padding: 5px;
+  font-family: Arial;
+}
 }
 
 #header .logo img {
@@ -253,7 +255,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: rgba(19, 9, 9, 0.7);
+  color: rgba(255, 255, 255, 0.7);
   transition: 0.3s;
   font-size: 14px;
   padding: 0 3px;
@@ -279,7 +281,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #c24374;
+  color: #ffffff;
 }
 
 .nav-menu .drop-down ul {
@@ -483,7 +485,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(6, 101, 183, 0.9);
+  background: rgb(189 54 173 / 90%);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -576,7 +578,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 30px 0;
   overflow: hidden;
 }
 
@@ -1114,7 +1116,7 @@ body {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(5, 74, 133, 0.8), rgba(5, 74, 133, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(174, 112, 187, 0.8), rgba(170, 38, 159, 0.9)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -2377,7 +2379,7 @@ body {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #05579e;
+  background: #9e059b;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -2385,7 +2387,7 @@ body {
 
 #footer .footer-newsletter {
   padding: 50px 0;
-  background: #05579e;
+  background: #9e059b;
 }
 
 #footer .footer-newsletter h4 {
@@ -2431,7 +2433,7 @@ body {
 }
 
 #footer .footer-top {
-  background: #065fad;
+  background: #9e059b;
   padding: 60px 0 30px 0;
 }
 
